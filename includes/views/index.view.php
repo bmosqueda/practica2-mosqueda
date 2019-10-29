@@ -3,8 +3,7 @@
 	
 	<link href="<?php echo $url;?>assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<script src="<?php echo $url;?>assets/js/jquery.js"></script>
-	<script src="<?php echo $url;?>assets/js/bootstrap.min.js"></script>
-	<script src="<?php echo $url;?>assets/js/tooltip.js"></script>
+	<script src="<?php echo $url;?>assets/js/bootstrap/bootstrap.min.js"></script>
 	<script src="<?php echo $url;?>assets/js/angular.js"></script>
 
 	<div class="container">
@@ -41,8 +40,8 @@
 							<td>{{ persona.direccion }}</td>
 							<td>{{ persona.telefono }}</td>
 							<td>
-								<button class="btn btn-primary btn-sm" ng-click="view(persona.id)"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar</button> &nbsp;
-								<button class="btn btn-danger btn-sm" ng-click="delete(persona.id)" data-toggle='confirmation' data-singleton='true' data-placement='top'>  <i class="fa fa-times" aria-hidden="true"></i>Borrar</button>
+								<button class="btn btn-primary btn-sm btn-edit" ng-click="view(persona.id)"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar</button> &nbsp;
+								<button class="btn btn-danger btn-sm btn-delete" ng-click="delete(persona.id)" data-toggle='confirmation' data-singleton='true' data-placement='top'>  <i class="fa fa-times" aria-hidden="true"></i>Borrar</button>
 							</td>
 						</tr>
 				  </tbody>
