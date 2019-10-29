@@ -30,7 +30,7 @@
 				      <th>Nombre</th>
 				      <th>Dirección</th>
 				      <th>Teléfono</th>
-				      <th><button ng-click="add()" class="btn btn-success btn-sm"><i class="fa fa-file-o" aria-hidden="true"></i></button>&nbsp;Nuevo</th>
+				      <th><button id="btnAddPerson" ng-click="add()" class="btn btn-success btn-sm"><i class="fa fa-file-o" aria-hidden="true"></i></button>&nbsp;Nuevo</th>
 				    </tr>
 				  </thead>
 				  <tbody>
@@ -78,7 +78,7 @@
 		                        </div>
 		                    </div>
 		                    <div class="modal-footer">
-		                        <button type="submit" class="btn btn-primary">
+		                        <button id="btnSavePerson" type="submit" class="btn btn-primary">
 		                        <span class="glyphicon glyphicon-floppy-disk"></span> Guardar
 		                        </button>
 		                        <button class="btn btn-secondary" data-dismiss="modal">
