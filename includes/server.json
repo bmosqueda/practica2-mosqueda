@@ -1,7 +1,7 @@
 {
-  "url": "http://localhost/directorioPersonas/",
-  "host": "localhost",
+  "url": "http://localhost/",
+  "host": "basededatos",
   "database": "myInfo",
   "user": "root",
-  "password": "mariaPass"
+  "password": "r00t"
 }
